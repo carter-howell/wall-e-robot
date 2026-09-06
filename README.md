@@ -2,13 +2,13 @@
 
 Status: Active robotics platform / prototype work
 
-This project is an ESP32-based Wall-E inspired robotics platform built to integrate motor control, servo actuation, Bluetooth controller input, audio playback, battery power, mechanical prototyping, and PCB design direction into one mobile robot.
+I am building this as an ESP32-based Wall-E inspired robotics platform that brings motor control, servo actuation, Bluetooth controller input, audio playback, battery power, mechanical prototyping, and PCB design direction into one mobile robot.
 
 ![DIY Wall-E robot](media/WallEPhoto.avif)
 
 ## Overview
 
-The project started from a 3D-printed Wall-E mechanical concept and was rebuilt around custom electronics, wiring, and firmware. It is one of Carter Howell's strongest multidisciplinary engineering projects because it combines embedded systems, robotics, power conversion, 3D printing, actuator control, audio, and a path toward a more integrated controller PCB.
+I started with a 3D-printed Wall-E mechanical concept and rebuilt the project around my own electronics, wiring, and firmware. This is one of my strongest multidisciplinary engineering projects because it combines embedded systems, robotics, power conversion, 3D printing, actuator control, audio, and a path toward a more integrated controller PCB.
 
 ## System Architecture
 
@@ -23,19 +23,19 @@ The project started from a 3D-printed Wall-E mechanical concept and was rebuilt 
 
 ## Hardware
 
-The documented build includes an ESP32-32S module, PCA9685 servo controller, L298N 12 V DC motor driver, XL6019 boost converter, 5 V buck converter, DFPlayer Mini audio module, 4 Ohm 3 W speaker, 12 V motors, and MG90S metal servos.
+My documented build includes an ESP32-32S module, PCA9685 servo controller, L298N 12 V DC motor driver, XL6019 boost converter, 5 V buck converter, DFPlayer Mini audio module, 4 Ohm 3 W speaker, 12 V motors, and MG90S metal servos.
 
 ![Wall-E electronics parts](media/NewParts.avif)
 
 ## Mechanical Build
 
-The body and alternate remix parts were 3D printed before final assembly. Printing alternate parts early helped reduce duplicate work and made it easier to adapt the mechanisms during the build.
+I 3D printed the body and alternate remix parts before final assembly. Printing alternate parts early helped reduce duplicate work and made it easier to adapt the mechanisms during the build.
 
 ![3D printer producing Wall-E parts](media/3DPrinter.avif)
 
 ## Schematic And PCB Work
 
-The robot is currently documented as a hand-wired prototype, but the project includes EasyEDA schematic and PCB layout work toward a cleaner controller board. The PCB direction is meant to reduce wiring complexity and organize power distribution, servo connections, motor-driver wiring, audio, and sensor/controller connections.
+The robot is currently documented as a hand-wired prototype, but I have also started EasyEDA schematic and PCB layout work toward a cleaner controller board. The PCB direction is meant to reduce wiring complexity and organize power distribution, servo connections, motor-driver wiring, audio, and sensor/controller connections.
 
 ![Wall-E schematic](media/Schematic.avif)
 
@@ -43,7 +43,7 @@ The robot is currently documented as a hand-wired prototype, but the project inc
 
 ## Firmware
 
-The firmware is separate from the original mechanical project. It uses Arduino/C++ and ESP32 controller support. Servo calibration is handled before running the full robot program so correct travel limits can be entered into the main control logic.
+I wrote firmware separately from the original mechanical project. It uses Arduino/C++ and ESP32 controller support. I handle servo calibration before running the full robot program so correct travel limits can be entered into the main control logic.
 
 Firmware source included in this repo:
 
@@ -63,9 +63,9 @@ Firmware source included in this repo:
 
 ## Validation Status
 
-The portfolio page documents the assembled robot, parts, schematic/PCB work, firmware, and a demo video. More complete engineering documentation should eventually add a full wiring diagram, pin map, servo-channel table, power measurements, motor current notes, battery runtime, and controller PCB revision history.
+My portfolio page documents the assembled robot, parts, schematic/PCB work, firmware, and a demo video. More complete engineering documentation should eventually add a full wiring diagram, pin map, servo-channel table, power measurements, motor current notes, battery runtime, and controller PCB revision history.
 
-Do not treat the current PCB documentation as a manufactured and validated controller board unless later evidence confirms that revision.
+I do not want to present the current PCB documentation as a manufactured and validated controller board until I have evidence for that revision.
 
 ## Future Improvements
 
