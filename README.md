@@ -1,8 +1,8 @@
 # DIY Wall-E Robotics Platform
 
-Status: Active robotics platform / prototype work
+Status: Working robot / active improvements
 
-I am building this as an ESP32-based Wall-E inspired robotics platform that brings motor control, servo actuation, Bluetooth controller input, audio playback, battery power, mechanical prototyping, and PCB design direction into one mobile robot.
+I built this ESP32-based Wall-E inspired robot to bring motor control, servo actuation, Bluetooth controller input, audio playback, battery power, 3D-printed mechanisms, and PCB design into one mobile platform. The robot works, and I continue improving its electronics, documentation, and controller-board design.
 
 ![DIY Wall-E robot](media/WallEPhoto.avif)
 
@@ -35,7 +35,7 @@ I 3D printed the body and alternate remix parts before final assembly. Printing 
 
 ## Schematic And PCB Work
 
-The robot is currently documented as a hand-wired prototype, but I have also started EasyEDA schematic and PCB layout work toward a cleaner controller board. The PCB direction is meant to reduce wiring complexity and organize power distribution, servo connections, motor-driver wiring, audio, and sensor/controller connections.
+The working robot currently uses hand-wired electronics. I have also started EasyEDA schematic and PCB layout work toward a cleaner controller board that reduces wiring complexity and organizes power distribution, servo connections, motor-driver wiring, audio, and sensor/controller connections.
 
 ![Wall-E schematic](media/Schematic.avif)
 
@@ -63,7 +63,7 @@ Firmware source included in this repo:
 
 ## Validation Status
 
-My portfolio page documents the assembled robot, parts, schematic/PCB work, firmware, and a demo video. More complete engineering documentation should eventually add a full wiring diagram, pin map, servo-channel table, power measurements, motor current notes, battery runtime, and controller PCB revision history.
+The assembled robot operates with its motor, servo, Bluetooth-control, and audio systems. My portfolio page documents the working build, parts, schematic/PCB work, firmware, and a demo video. More complete engineering documentation should add a full wiring diagram, pin map, servo-channel table, power measurements, motor current notes, battery runtime, and controller PCB revision history.
 
 I do not want to present the current PCB documentation as a manufactured and validated controller board until I have evidence for that revision.
 
