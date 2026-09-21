@@ -49,7 +49,7 @@ Firmware source included in this repo:
 
 - [firmware/Walle_code.cpp](firmware/Walle_code.cpp)
 
-## What This Demonstrates
+## Project Work
 
 - ESP32 embedded firmware
 - Bluetooth gamepad control
@@ -63,9 +63,9 @@ Firmware source included in this repo:
 
 ## Validation Status
 
-The assembled robot operates with its motor, servo, Bluetooth-control, and audio systems. My portfolio page documents the working build, parts, schematic/PCB work, firmware, and a demo video. More complete engineering documentation should add a full wiring diagram, pin map, servo-channel table, power measurements, motor current notes, battery runtime, and controller PCB revision history.
+The assembled robot operates with its motor, servo, Bluetooth-control, and audio systems. The portfolio page includes the working build, parts, schematic and PCB work, firmware, and a demo video.
 
-I do not want to present the current PCB documentation as a manufactured and validated controller board until I have evidence for that revision.
+The controller PCB shown here is still in the design stage and has not been manufactured yet.
 
 ## Future Improvements
 
