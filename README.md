@@ -1,25 +1,25 @@
-# DIY Wall-E Robotics Platform
+# DIY Wall-E Robot
 
 Status: Working robot / active improvements
 
-I built this ESP32-based Wall-E inspired robot to bring motor control, servo actuation, Bluetooth controller input, audio playback, battery power, 3D-printed mechanisms, and PCB design into one mobile platform. The robot works, and I continue improving its electronics, documentation, and controller-board design.
+I built this Wall-E robot with an ESP32, two DC drive motors, servo-controlled arms and claws, Bluetooth gamepad control, a DFPlayer Mini, and 3D-printed parts. It drives, responds to the controller, moves its arms and claws, and plays audio.
 
 ![DIY Wall-E robot](media/WallEPhoto.avif)
 
 ## Overview
 
-I started with a 3D-printed Wall-E mechanical concept and rebuilt the project around my own electronics, wiring, and firmware. This is one of my strongest multidisciplinary engineering projects because it combines embedded systems, robotics, power conversion, 3D printing, actuator control, audio, and a path toward a more integrated controller PCB.
+I started with a 3D-printed Wall-E body and rebuilt the electronics, wiring, and firmware around it. I am now replacing the hand-wired electronics with a controller PCB that combines the main power and signal connections.
 
-## System Architecture
+## Main Parts
 
 - Controller: ESP32-family development hardware
-- Gamepad input: ESP32 Bluetooth / Bluepad32 workflow
+- Gamepad input: Bluetooth through Bluepad32
 - Servo control: PCA9685 PWM servo driver
 - Drive control: L298N motor driver in the current documented build
 - Audio: DFPlayer Mini module and speaker
 - Power: battery-powered robot with buck/boost conversion
 - Mechanical: 3D-printed body, arms, claws, and mounting parts
-- PCB direction: EasyEDA schematic and PCB layout for cleaner future electronics integration
+- PCB work: EasyEDA schematic and controller-board layout
 
 ## Hardware
 
@@ -55,13 +55,13 @@ Firmware source included in this repo:
 - Bluetooth gamepad control
 - PCA9685 servo driving
 - DC motor control
-- audio-module integration
+- DFPlayer Mini audio control
 - battery-powered robotics wiring
-- 3D-printed mechanical integration
-- schematic capture and PCB layout direction
-- practical system-level debugging across hardware, firmware, and mechanics
+- 3D-printed body, arm, and claw assembly
+- schematic capture and controller PCB layout
+- debugging across the wiring, firmware, motors, servos, and printed mechanisms
 
-## Validation Status
+## Testing
 
 The assembled robot operates with its motor, servo, Bluetooth-control, and audio systems. The portfolio page includes the working build, parts, schematic and PCB work, firmware, and a demo video.
 
