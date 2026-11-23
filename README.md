@@ -25,7 +25,6 @@ I started with a 3D-printed Wall-E body and rebuilt the electronics, wiring, and
 
 My documented build includes an ESP32-32S module, PCA9685 servo controller, L298N 12 V DC motor driver, XL6019 boost converter, DFPlayer Mini audio module, 4 Ohm 3 W speaker, 12 V motors, and MG90S metal servos.
 
-![Wall-E electronics parts](media/NewParts.avif)
 
 ## Mechanical Build
 
@@ -44,7 +43,7 @@ I 3D printed the body and alternate remix parts before final assembly. Printing 
 
 I designed the controller boards in EasyEDA to collect the ESP32, audio, motor, servo, power, and battery connections on one board. I refer to the assembled board as Revision 1 and the smaller empty board as Revision 2 based on the order I fabricated them. Their silkscreen labels read `WALL-E PCB V2` and `WALL-E PCB V3` respectively.
 
-![Wall-E schematic](media/Schematic.avif)
+![WALL-E Drop In V4 schematic](media/wall-e-drop-in-v4-schematic.png)
 
 ![WALL-E Drop In V4 motherboard — EasyEDA 3D render](media/wall-e-drop-in-v4-pcb-3d.png)
 
@@ -102,7 +101,7 @@ Prices below are historical USD item prices from my inventory and order records.
 | JGB37-520 gear motor, 12 V, 200 RPM | 2 | $8.72 each | [AliExpress](https://www.aliexpress.com/item/3256805250852226.html) |
 | PCA9685 16-channel servo driver | 1 | $2.87 each | [AliExpress](https://www.aliexpress.com/item/3256806112519208.html) |
 | MG90S 180° metal-gear servo | 7 | $20.96 per 10-pack | [AliExpress](https://www.aliexpress.com/item/3256805639785749.html) |
-| Mini brushed ESC, advertised 30 A, 4–8 V | 2 | $3.03 each | [AliExpress](https://www.aliexpress.com/item/3256809348516540.html) |
+| Dual-channel bidirectional brushed ESC, advertised 40 A × 2, 6–15 V, mixed control | 1 | $6.33 displayed listing price; original paid price unconfirmed | AliExpress; original item listing unavailable |
 | 5 V 7 A UBEC | 1 | $5.21 each | [AliExpress](https://www.aliexpress.com/item/3256809278446011.html) |
 | DFPlayer Mini | 1 | $5.77 per 5-pack | [AliExpress](https://www.aliexpress.com/item/3256808023570782.html) |
 | 40 mm 4 Ω 3 W speaker | 1 | $2.85 per 2-pack | [AliExpress](https://www.aliexpress.com/item/3256806925518415.html) |
@@ -125,7 +124,7 @@ No magnets were used. Filament, microSD, controller, connector consumption, and 
 
 | Cost group | Amount |
 | --- | ---: |
-| Main electronics, motors, battery and seven servos | $64.31 |
+| Main electronics, motors, battery and seven servos | $64.58 |
 | JLCPCB fabrication order | $10.00 |
 | Two rolls of filament, estimated | $40.00 |
 | M2.5 hardware kit | $6.00 |
@@ -133,15 +132,15 @@ No magnets were used. Filament, microSD, controller, connector consumption, and 
 | Two divider resistors, estimated allocation | $0.02 |
 | Wire, solder and assembly supplies, estimated | $5.00 |
 | microSD card, estimated | $8.00 |
-| **Robot total excluding Xbox controller** | **$136.33** |
+| **Robot total excluding Xbox controller** | **$136.60** |
 | Xbox controller, estimated | $60.00 |
-| **Total including controller** | **$196.33** |
+| **Total including controller** | **$196.60** |
 
 The electronics subtotal allocates seven servos from a 10-pack, one DFPlayer from a 5-pack, and one speaker from a 2-pack. Connector costs use a $3.00 consumption allowance rather than charging the robot for entire kits. The fabrication amount is the reported $10 order cost, since the number of boards was not recorded. Filament assumes two rolls at $20 each; roll weight and brand were not recorded. Totals combine historical item prices with estimates and exclude separately unrecorded shipping and taxes.
 
 Mechanical model references retained with the local build files include the [head-center modification](https://www.thingiverse.com/thing:4583962), [linkage arms](https://www.thingiverse.com/thing:4707426), [magnetic door addons](https://www.thingiverse.com/thing:4734863), [grub-screw pinion](https://www.thingiverse.com/thing:4932959), and [realistic hands](https://www.thingiverse.com/thing:5391045).
 
-Purchasing full assortments costs more than the fractions consumed in one robot. The ESC listing above advertises 4–8 V; it is not a documented 3S-rated substitute.
+Purchasing full assortments costs more than the fractions consumed in one robot. The ESC specifications and $6.33 listing price are taken from the identified product screenshot; they are seller claims rather than independently measured ratings.
 
 ## Portfolio
 
