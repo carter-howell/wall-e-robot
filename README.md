@@ -91,15 +91,36 @@ The assembled robot operates with its motor, servo, Bluetooth-control, and audio
 
 The assembled first controller board worked fully in testing, with size as its main drawback. The smaller second board was manufactured but intentionally left unassembled, so I do not claim that revision as electrically tested.
 
-## Future Improvements
+## Parts and purchase prices
 
-- Add a complete pin map and PCA9685 channel table.
-- Document servo calibration values.
-- Add power architecture and battery-protection notes.
-- Add measured current draw for motors, servos, and idle electronics.
-- Design another compact controller-board revision with better mechanical support for every module.
-- Evaluate a dual 3S motor ESC as a replacement for the L298N and boost converter.
-- Add a short demo video or linked media section.
+Prices below are historical USD item prices from my inventory and order records. Package prices are identified explicitly. Shipping and taxes are not included. The list covers the finished ESC-controlled, 2S build.
+
+| Part / selected variant | Build quantity | Recorded price | Purchase link |
+| --- | ---: | --- | --- |
+| ESP32 Type-C 30-pin development board | 1 | $4.39 each | [AliExpress](https://www.aliexpress.com/item/3256808703453847.html) |
+| JGB37-520 gear motor, 12 V, 200 RPM | 2 | $8.72 each | [AliExpress](https://www.aliexpress.com/item/3256805250852226.html) |
+| PCA9685 16-channel servo driver | 1 | $2.87 each | [AliExpress](https://www.aliexpress.com/item/3256806112519208.html) |
+| MG90S 180° metal-gear servo | 7 | $20.96 per 10-pack | [AliExpress](https://www.aliexpress.com/item/3256805639785749.html) |
+| Mini brushed ESC, advertised 30 A, 4–8 V | 2 | $3.03 each | [AliExpress](https://www.aliexpress.com/item/3256809348516540.html) |
+| 5 V 7 A UBEC | 1 | $5.21 each | [AliExpress](https://www.aliexpress.com/item/3256809278446011.html) |
+| DFPlayer Mini | 1 | $5.77 per 5-pack | [AliExpress](https://www.aliexpress.com/item/3256808023570782.html) |
+| 40 mm 4 Ω 3 W speaker | 1 | $2.85 per 2-pack | [AliExpress](https://www.aliexpress.com/item/3256806925518415.html) |
+| 1.3-inch SH1106 I²C OLED, white, 128×64 | 1 | $2.16 each | [AliExpress](https://www.aliexpress.com/item/3256807385478388.html) |
+| 2S 1500 mAh 45C LiPo, JST variant | 1 | $8.93 each | [AliExpress](https://www.aliexpress.com/item/3256806995815859.html) |
+| 100 kΩ and 6.8 kΩ divider resistors | 1 each | $4.47 per 600-piece assortment | [AliExpress](https://www.aliexpress.com/item/3256810191764673.html) |
+| KF301 two-pin screw terminals | As installed | $1.60 per 10-pack | [AliExpress](https://www.aliexpress.com/item/3256806456550715.html) |
+| 2.54 mm male/female breakaway headers | Cut to fit | $1.92 per assorted package | [AliExpress](https://www.aliexpress.com/item/2255800687544049.html) |
+| Dupont housings and crimp contacts | As installed | $2.71 per 620-piece kit | [AliExpress](https://www.aliexpress.com/item/3256802459986084.html) |
+| Custom WALL-E motherboard | 1 | Fabrication price not recorded | Custom EasyEDA design |
+| Printed body, tracks, wheels, gears, head, arms and chest panel | 1 set | Filament consumption and cost not recorded | Printed locally |
+| Screws, nuts, servo horns, magnets and linkage hardware | As installed | Used quantities and allocated cost not recorded | Workshop stock |
+| Wire, solder, insulation and cable ties | As installed | Allocated cost not recorded | Workshop stock |
+| microSD card for DFPlayer audio | 1 | Purchase price not recorded | Existing card |
+| Bluetooth gamepad | 1 | Purchase price not recorded | Existing controller |
+
+Mechanical model references retained with the local build files include the [head-center modification](https://www.thingiverse.com/thing:4583962), [linkage arms](https://www.thingiverse.com/thing:4707426), [magnetic door addons](https://www.thingiverse.com/thing:4734863), [grub-screw pinion](https://www.thingiverse.com/thing:4932959), and [realistic hands](https://www.thingiverse.com/thing:5391045).
+
+A complete project total is not available because fabrication, filament, hardware and workshop consumables were not individually costed. Purchasing a full assortment costs more than the fraction consumed in one robot. The ESC listing above advertises 4–8 V; it is not a documented 3S-rated substitute.
 
 ## Portfolio
 
