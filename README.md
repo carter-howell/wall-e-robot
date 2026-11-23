@@ -112,16 +112,36 @@ Prices below are historical USD item prices from my inventory and order records.
 | KF301 two-pin screw terminals | As installed | $1.60 per 10-pack | [AliExpress](https://www.aliexpress.com/item/3256806456550715.html) |
 | 2.54 mm male/female breakaway headers | Cut to fit | $1.92 per assorted package | [AliExpress](https://www.aliexpress.com/item/2255800687544049.html) |
 | Dupont housings and crimp contacts | As installed | $2.71 per 620-piece kit | [AliExpress](https://www.aliexpress.com/item/3256802459986084.html) |
-| Custom WALL-E motherboard | 1 | Fabrication price not recorded | Custom EasyEDA design |
-| Printed body, tracks, wheels, gears, head, arms and chest panel | 1 set | Filament consumption and cost not recorded | Printed locally |
-| Screws, nuts, servo horns, magnets and linkage hardware | As installed | Used quantities and allocated cost not recorded | Workshop stock |
-| Wire, solder, insulation and cable ties | As installed | Allocated cost not recorded | Workshop stock |
-| microSD card for DFPlayer audio | 1 | Purchase price not recorded | Existing card |
-| Bluetooth gamepad | 1 | Purchase price not recorded | Existing controller |
+| Custom WALL-E motherboard | 1 order | $10.00 paid for fabrication; board count not recorded | [JLCPCB](https://jlcpcb.com/) |
+| Filament for body, tracks, wheels, gears, head, arms and chest panel | 2 rolls | Estimated $20.00 per roll; $40.00 total | Printed locally; filament brand not recorded |
+| M2.5 hex screws, bolts and nuts kit | 1 kit | $6.00 paid | Purchase link not recorded |
+| Wire, solder, insulation and cable ties | As installed | Estimated $5.00 allowance | Workshop stock |
+| microSD card for DFPlayer audio | 1 | Estimated $8.00 allowance | Existing card; model not recorded |
+| Xbox wireless controller | 1 | Estimated $60.00 allowance | [Xbox controllers](https://www.xbox.com/accessories/controllers) |
+
+No magnets were used. Filament, microSD, controller, connector consumption, and assembly-supply estimates are budget allowances rather than verified purchase prices.
+
+### Estimated build cost
+
+| Cost group | Amount |
+| --- | ---: |
+| Main electronics, motors, battery and seven servos | $64.31 |
+| JLCPCB fabrication order | $10.00 |
+| Two rolls of filament, estimated | $40.00 |
+| M2.5 hardware kit | $6.00 |
+| Connector/header allowance, estimated | $3.00 |
+| Two divider resistors, estimated allocation | $0.02 |
+| Wire, solder and assembly supplies, estimated | $5.00 |
+| microSD card, estimated | $8.00 |
+| **Robot total excluding Xbox controller** | **$136.33** |
+| Xbox controller, estimated | $60.00 |
+| **Total including controller** | **$196.33** |
+
+The electronics subtotal allocates seven servos from a 10-pack, one DFPlayer from a 5-pack, and one speaker from a 2-pack. Connector costs use a $3.00 consumption allowance rather than charging the robot for entire kits. The fabrication amount is the reported $10 order cost, since the number of boards was not recorded. Filament assumes two rolls at $20 each; roll weight and brand were not recorded. Totals combine historical item prices with estimates and exclude separately unrecorded shipping and taxes.
 
 Mechanical model references retained with the local build files include the [head-center modification](https://www.thingiverse.com/thing:4583962), [linkage arms](https://www.thingiverse.com/thing:4707426), [magnetic door addons](https://www.thingiverse.com/thing:4734863), [grub-screw pinion](https://www.thingiverse.com/thing:4932959), and [realistic hands](https://www.thingiverse.com/thing:5391045).
 
-A complete project total is not available because fabrication, filament, hardware and workshop consumables were not individually costed. Purchasing a full assortment costs more than the fraction consumed in one robot. The ESC listing above advertises 4–8 V; it is not a documented 3S-rated substitute.
+Purchasing full assortments costs more than the fractions consumed in one robot. The ESC listing above advertises 4–8 V; it is not a documented 3S-rated substitute.
 
 ## Portfolio
 
