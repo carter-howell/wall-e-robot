@@ -29,6 +29,13 @@ My documented build includes an ESP32-32S module, PCA9685 servo controller, L298
 
 ## Mechanical Build
 
+### 3D print files and original design credit
+
+I obtained the original WALL-E 3D printer files from **Simon Bluett (chillibasket)** and built this robot around his WALL-E Robot Replica design. The original mechanical design is his work; my contribution includes the custom electronics, motherboard, ESP32 firmware, wiring, and adaptations for this build.
+
+- [chillibasket's WALL-E replica repository](https://github.com/chillibasket/walle-replica)
+- [Original build guide and model downloads](https://wired.chillibasket.com/3d-printed-wall-e/)
+
 I 3D printed the body and alternate remix parts before final assembly. Printing alternate parts early helped reduce duplicate work and made it easier to adapt the mechanisms during the build.
 
 ![3D printer producing Wall-E parts](media/3DPrinter.avif)
@@ -39,23 +46,17 @@ I designed the controller boards in EasyEDA to collect the ESP32, audio, motor, 
 
 ![Wall-E schematic](media/Schematic.avif)
 
-![Wall-E PCB layout](media/PCB.avif)
+![WALL-E Drop In V4 motherboard — EasyEDA 3D render](media/wall-e-drop-in-v4-pcb-3d.png)
 
 ### Revision 1: assembled and working
 
 I fully assembled and tested the first board. It worked without functional problems, but it was larger than I wanted for the limited space inside Wall-E. The board carries the ESP32, DFPlayer Mini, boost-converter module, screw terminals, servo and motor connections, and the discrete power-protection parts.
 
-![Assembled first controller PCB](media/controller-pcb-rev1-component-side.jpg)
-
-![Solder side of the assembled first controller PCB](media/controller-pcb-rev1-solder-side.jpg)
 
 ### Revision 2: smaller but not assembled
 
 The second board is much smaller and places plug-in modules on both sides. I decided not to assemble it because several modules would be held above the board mainly by their headers. I did not like having those parts mechanically unsupported inside a moving robot, so this revision was manufactured but never electrically tested.
 
-![ESP32 and step-up-converter side of the second controller PCB](media/controller-pcb-rev2-esp32-side.jpg)
-
-![DFPlayer and connector side of the second controller PCB](media/controller-pcb-rev2-dfplayer-side.jpg)
 
 ## Packaging And Power Notes
 
